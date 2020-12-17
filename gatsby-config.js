@@ -4,6 +4,7 @@ require('dotenv').config({
 })
 
 module.exports = {
+  pathPrefix: "/unbaul",
   siteMetadata: {
     title: `Un baúl donde entre todo`,
     name: `Un Baúl`,
