@@ -4,11 +4,10 @@ require('dotenv').config({
 })
 
 module.exports = {
-  pathPrefix: "/unbaul",
   siteMetadata: {
     title: `Un baúl donde entre todo`,
     name: `Un Baúl`,
-    siteUrl: `https://unbaul.com`,
+    siteUrl: `https://new.unbaul.com`,
     description: `Mantengo este baúl abierto por si acaso alguien quiere alguna vez mirar adentro`,
     hero: {
       heading: `Un baúl abierto por si alguien quiere alguna vez mirar adentro.`,
@@ -38,7 +37,8 @@ module.exports = {
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
-        rootPath: "/unbaul",
+        rootPath: "/",
+        basePath: "/",
         authorsPage: true,
         sources: {
           contentful: true,
