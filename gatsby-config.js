@@ -38,7 +38,7 @@ module.exports = {
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
-        basePath: "/unbaul",
+        rootPath: "/unbaul",
         authorsPage: true,
         sources: {
           contentful: true,
