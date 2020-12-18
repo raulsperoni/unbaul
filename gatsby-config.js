@@ -39,10 +39,11 @@ module.exports = {
         contentAuthors: "content/authors",
         rootPath: "/",
         basePath: "/",
+        mailchimp: true,
         authorsPage: true,
         sources: {
           contentful: true,
-          local: false
+          local: true
         },
       },
     },
@@ -63,5 +64,12 @@ module.exports = {
       options: {
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://unbaul.us7.list-manage.com/subscribe/post?u=8dc357faa455eb6b60b1498ba&amp;id=7ea51b44df', // string; add your MC list endpoint here; see instructions below
+        timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+      }
+    }
   ],
 };
