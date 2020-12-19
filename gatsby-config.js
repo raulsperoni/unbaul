@@ -43,7 +43,7 @@ module.exports = {
         authorsPage: true,
         sources: {
           contentful: true,
-          local: true
+          local: false
         },
       },
     },
