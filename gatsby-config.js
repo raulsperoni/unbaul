@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     title: `Un baúl donde entre todo`,
     name: `Un Baúl`,
-    siteUrl: `https://new.unbaul.com`,
+    siteUrl: `https://unbaul.com`,
     description: `Mantengo este baúl abierto por si acaso alguien quiere alguna vez mirar adentro`,
     hero: {
       heading: `Un baúl abierto por si alguien quiere alguna vez mirar adentro.`,
