@@ -1,9 +1,8 @@
-name: Build on Push
+name: Build on Contentful Publish Event
 
 on:
-  push:
-    branches:
-      - main
+  repository_dispatch:
+    types: [publish-event]
 
 jobs:
   build:
